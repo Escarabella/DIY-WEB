@@ -1,0 +1,187 @@
+body {
+  background: #C0EFF0 url("multicolor4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+h1{
+  font-size: 40px;
+  font-family: helvetica;
+  color: #085C5A;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: helvetica;
+  color: #085C5A;
+}
+
+h4 {
+  color: #085C5A;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Search navigation*/
+.topnav {
+    overflow: hidden;
+    background-color: none;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 28px;
+    font-size: 17px;
+}
+
+.topnav input[type=submit] {
+    margin-left: 75.5%;
+    margin-top: 8px;
+    padding: 5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.btn-group button {
+    background-color: #CAE4ED; /* background */
+    margin-left: 62px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 2.5px;
+    cursor: pointer;
+    float: left;
+
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #6BC5E3;
+}
+
+.first {
+  background-color: #CAE4ED;
+  color: #E87A35;
+  border: 1.2px solid #E87A35;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 30px;
+  border-width: thick;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: arial;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 300px;
+}
+
+.second {
+    background-color: #CAE4ED;
+    color: #F507ED;
+    border: 1.2px solid #F507ED;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+    border-width: thick;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: arial;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 300px;
+}
+
+.third {
+    background-color: #CAE4ED;
+    color: #1B07F5;
+    border: 1.2px solid #1B07F5;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+    border-width: thick;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: arial;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 300px;
+}
+
+.fourth {
+    background-color: #DDEBF0;
+    color: purple;
+    border: 1.2px solid purple;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+    border-width: thick;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: arial;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 300px;
+}
+
+.fifth {
+    background-color: #DDEBF0;
+    color: #16B533;
+    border: 1.2px solid #16B533;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+    border-width: thick;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: arial;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 300px;
+}
+
+.sixth {
+    background-color: #DDEBF0;
+    color: #EB1043;
+    border: 1.2px solid #EB1043;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 30px;
+    border-width: thick;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: arial;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 300px;
+}

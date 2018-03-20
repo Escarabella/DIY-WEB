@@ -1,0 +1,137 @@
+div.food {
+    max-width:200px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+
+
+}
+
+div.cake {
+
+text-align: left;
+font-style: italic;
+font-size: 20px;
+color: black;
+
+}
+
+h1 {
+
+  max-width:300px;
+  margin: auto;
+  border: 3px solid #73AD21;
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  opacity: 0.7;
+  background-color:#ffffff;
+
+
+
+}
+
+h2 {
+
+  max-width:350px;
+  text-align: center;
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  background-color:#ffffff;
+  padding: 12px 20px 12px 20px;
+  font-size: 20px;
+
+
+
+}
+
+h3 {
+
+  opacity: 0.7;
+  color: black;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: monospace;
+  text-align: center;
+  padding: 5px;
+  background-color:#ffffff;
+
+
+}
+
+body{
+
+    background: url("Good_Food_Display.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #EDEBE4;
+
+  }
+
+
+  input[type=text] {
+      width: 130px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: white;
+      background-image: url('searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      padding: 12px 20px 12px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+      justify-content: center;
+
+  }
+
+  input[type=text]:focus {
+      width: 100%;
+
+  }
+
+  input[type=Starters], input[type=Main], input[type=Dessert], input[type=Drinks]{
+      background-color: orange;
+      font-size:30px;
+      color: black;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      padding: 20px;
+      justify-content: center;
+
+  }
+
+.floating-box {
+  display : inline-block;
+  margin-left: 3%;
+  text-align: left;
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+}
+
+.menu_button {
+  height: 100px;
+  font-size: 30px;
+  background-color: orange;
+  margin-left: 3.5%;
+  margin-bottom: 5%;
+  width: 20%
+
+
+}
+
+.menu_button_group {
+margin-top:5%;
+margin-bottom: 5%;
+
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
